@@ -14,7 +14,7 @@
 
 #PureNexus versioning
 ifndef PURE_BUILD_TYPE
-    PURE_BUILD_TYPE := HOMEMADE
+    PURE_BUILD_TYPE := BREVENT
 endif
 
 PURE_VERSION := $(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(PURE_BUILD_TYPE)

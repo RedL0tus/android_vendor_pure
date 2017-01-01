@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/pure/prebuilt/bin/50-base.sh:system/addon.d/50-base.sh \
 
 # Brevent
-PRODUCT_COPY_FILES + \
+PRODUCT_COPY_FILES += \
     vendor/pure/prebuilt/Brevent/Brevent.apk:system/app/Brevent/Brevent.apk
 
 # Security Enhanced Linux
