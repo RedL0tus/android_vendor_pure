@@ -31,5 +31,5 @@ PRODUCT_PACKAGES += \
     Masquerade
 
 # Brevent
-PRODUCT_COPY_FILES += \
+BUILD_PREBUILT += \
     vendor/pure/prebuilt/Brevent/Brevent.apk:system/app/Brevent/Brevent.apk
