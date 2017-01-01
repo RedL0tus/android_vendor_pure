@@ -29,3 +29,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Busybox \
     Masquerade
+
+# Brevent
+PRODUCT_COPY_FILES += \
+    vendor/pure/prebuilt/Brevent/Brevent.apk:system/app/Brevent/Brevent.apk
